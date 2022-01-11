@@ -3,7 +3,7 @@
 # Summary 
 For this weeks assignment, we were asked to create a portfolio using React where we can not only store our projects, but as well as a place where we can share our projects with other developers. 
 
-The final result was this: <!-- Website Link -->
+The final result was this: https://mendixta.github.io/react-portfolio/
 
 
 # Getting Started
@@ -24,6 +24,6 @@ After working with React to create this portfolio, I feel a lot better about usi
 
 
 # Screenshots 
-<img src='portfolio/src/images/screenshot-1.png'>
+<img src='/src/images/screenshot-1.png'>
 
-<img src= 'portfolio/src/images/screenshot-2.png'>
+<img src= '/src/images/screenshot-2.png'>
