@@ -1,0 +1,17 @@
+.contact-div{
+    padding-top: 10rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    padding-bottom: 20rem;
+}
+
+.button-div {
+    padding-top: 1rem;
+}
+h4 {
+    font-family: Poppins;
+}
+
+body {
+    color: white;
+}

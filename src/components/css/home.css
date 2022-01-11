@@ -1,0 +1,120 @@
+body {
+    background-image: url("../../images/bg-2.jpeg");
+    background-position: center;
+}
+
+
+h1 {
+    font-family: Poppins;
+    display: inline;
+    
+}
+
+h2 {
+    display: inline;
+    font-family: Poppins;
+    padding-right: 7rem;
+}
+
+
+h3 {
+    font-family: Poppins; 
+    padding-top: 2rem;
+    text-align: center;
+}
+
+p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-stretch: wider;
+    color: white;
+}
+
+
+
+/* TITLE */
+.nav {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+/* LINKS TO OTHER PAGES */
+.link-div {
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+}
+
+/* ICON */
+.image {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 3rem;
+}
+
+.icon {
+    clip-path: circle(50% at 50% 50%);
+}
+
+/* BOX WHERE ABOUT ME INFO IS */ 
+.ab-div {
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+   
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 3rem;
+    padding-bottom: 5rem;
+    border-color: white;
+    border: solid;
+
+}
+
+
+.about {
+    padding-bottom: 2rem;
+}
+
+
+/* ANIMATION DISPLAYING PROGRAMMING LANGUAGES */
+.languages {
+    overflow: hidden;
+    height: 45px;
+   
+}
+
+
+.item {
+    height: 100%;
+    animation: move 8s ease-in-out infinite;
+}
+
+@keyframes move {
+    25% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(-80px);
+    }
+    75% {
+        transform: translateY(-130px);
+    }
+    100% {
+        transform: translateY(-190px);
+    }
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .ab-div{
+     max-width: 30rem;
+     max-height: 30rem;
+    }
+  }
+ 

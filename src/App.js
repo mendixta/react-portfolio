@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/pages/footer";
+import PortfolioContainer from "./components/portfolioContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => 
+<div className = "nav">
+     <h1 className="title is-2 has-text-white"> Griselda Mendieta's Portfolio </h1>  
+            <PortfolioContainer />;
+            <Footer/>
+</div>
+
+
 
 export default App;
